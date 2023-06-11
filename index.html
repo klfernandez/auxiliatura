@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Ventana Emergente</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-image: url('WhatsApp\ Image\ 2023-06-11\ at\ 19.20.57.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+    }
+
+    .seccion {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      height: 100vh;
+      padding: 20px;
+      color: #fff;
+    }
+
+    .seccion__encabezado {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .seccion__logo {
+      width: 200px;
+      height: auto;
+    }
+
+    .seccion__clasificacion-edad {
+      background-color: #e50914;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 16px;
+      color: #fff;
+    }
+
+    .seccion__menu {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .seccion__menu a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+    }
+
+    .seccion__contenido {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+
+    .seccion__icono {
+      width: 40px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .seccion__titulo {
+      font-size: 70px;
+      margin: 0;
+    }
+
+    .seccion__detalles {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .seccion__descripcion {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    .seccion__acciones {
+      display: flex;
+      gap: 10px;
+    }
+
+    .seccion__boton--reproducir,
+    .seccion__boton--lista {
+      background-color: #e50914;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .seccion__boton--lista {
+      background-color: #fff;
+      color: #000;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="seccion">
+    <div class="seccion__encabezado">
+      <img src="logo_netflix.png" alt="Examen" class="seccion__logo">
+      <div class="seccion__menu">
+        <a href="#">Inicio</a>
+        <a href="#">Series de TV</a>
+        <a href="#">Películas</a>
+        <a href="#">Novedades</a>
+        <a href="#">Mi Lista</a>
+      </div>
+    </div>
+    <div class="seccion__contenido">
+      <img src="icono_netflix.png" alt="Logo de Netflix" class="seccion__icono">
+      <h1 class="seccion__titulo">PEAKY BLINDERS</h1>
+      <div class="seccion__detalles">
+        <span class="seccion__clasificacion-edad">+16</span>
+        2023 / 5 temporadas
+      </div>
+      <p class="seccion__descripcion">Descripción de la serie Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod faucibus aliquet. Morbi quis ligula odio. In hac habitasse platea dictumst. Morbi eleifend aliquam felis nec finibus. Nunc eu pellentesque elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga ea, cupiditate ipsum repellendus, voluptates dolorem labore, est quae non doloremque laudantium optio! Quos obcaecati tempore repellendus magnam reiciendis culpa explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, nisi beatae atque incidunt praesentium assumenda, dolorum repudiandae, laudantium blanditiis perspiciatis itaque quibusdam ipsa officiis maiores debitis voluptate animi facilis cum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est id quibusdam quisquam optio inventore quidem distinctio facere fugit quo illum eaque officiis nesciunt, voluptas, magnam maiores rem totam quos laboriosam!</p>
+    </div>
+    <div class="seccion__acciones">
+      <a href="#" class="seccion__boton--reproducir">Reproducir</a>
+      <a href="#" class="seccion__boton--lista">Mi Lista</a>
+    </div>
+  </div>
+</body>
+
+</html>
